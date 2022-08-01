@@ -117,6 +117,7 @@ function ControlaBomba(){
     if (contBombas<50){
   
         velB=7;
+        velJ = 11;
     }
 }
 
@@ -192,7 +193,7 @@ function inicia(){
     dirxJ = diryJ = 0;
     pjx = tamTelaW/2;
     pjy = tamTelaH/2;
-    velJ = 10*1,1;
+    velJ = 11;
     velT = 6; //velocidade do tiro
     jog = document.getElementById("naveJog");
     jog.style.top = pjy+"px";
